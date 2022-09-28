@@ -41,6 +41,9 @@ function removeProduct(event) {
   const target = event.currentTarget;
   console.log('The target in remove is:', target);
   //... your code goes here
+  const removeBtn = document.querySelectorAll('.btn btn-remove')
+  removeBtn.addEventListener('click', removeProduct());
+
 }
 
 // ITERATION 5
